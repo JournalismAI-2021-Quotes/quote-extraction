@@ -1,0 +1,81 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "publish_date": {
+          "type": "string"
+        },
+        "topic": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "entity_person": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "title": {
+          "type": "string"
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "paragraphs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "index": {
+            "type": "string"
+          },
+          "span_text": {
+            "type": "string"
+          },
+          "span_coref": {
+            "type": "string"
+          },
+          "span_label": {
+            "type": "string"
+          },
+          "span_start": {
+            "type": "string"
+          },
+          "span_end": {
+            "type": "number"
+          },
+          "paragraph_start": {
+            "type": "number"
+          },
+          "paragraph_end": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  }
+}

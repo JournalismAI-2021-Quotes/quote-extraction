@@ -1,0 +1,87 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [],
+    "properties": {
+      "metadata": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "publisher": {
+            "type": "string"
+          },
+          "publish_date": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "entity_person": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "entity_location": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "title": {
+            "type": "string"
+          }
+        }
+      },
+      "paragraphs": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "entities": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [],
+          "properties": {
+            "span_label": {
+              "type": "string"
+            },
+            "span_text": {
+              "type": "string"
+            },
+            "span_start": {
+              "type": "number"
+            },
+            "span_end": {
+              "type": "number"
+            },
+            "span_coref": {
+              "type": ["string", "null"]
+            },
+            "paragraph_start": {
+              "type": "number"
+            },
+            "paragraph_end": {
+              "type": "number"
+            },
+            "span_in_paragraph_start": {
+              "type": "number"
+            },
+            "span_in_paragraph_end": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    }
+  }
+}

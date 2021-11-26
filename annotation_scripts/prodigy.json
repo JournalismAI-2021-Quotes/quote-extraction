@@ -1,0 +1,45 @@
+{
+	"keymap_by_label": {
+		"Content": "c",
+		"Source": "s",
+		"Cue": "v"
+	},
+	"custom_theme": {
+		"accept": "#3db540",
+		"ignore": "#ffbb50",
+		"reject": "#c70000",
+		"undo": "#999999",
+		"bgCard": "#ffffff",
+		"bgCardSecondary": "#f6f6f6",
+		"bgCardTertiary": "#dcdcdc",
+		"bgCardQuaternary": "#999999",
+		"bgPage": "#f6f6f6",
+		"bgSidebar": "#506991",
+		"bgSidebarDark": "#052962",
+		"bgCardTitle": "#052962",
+		"colorText": "#121212",
+		"colorHighlightLabel": "#121212",
+		"cardMaxWidth": 800,
+		"largeText": 34,
+		"mediumText": 24,
+		"smallText": 20,
+		"fontPrimary": ["Lato", "Helvetica", "Roboto", "Arial", "sans-serif"],
+		"fontSecondary": ["Roboto Condensed", "Arial Narrow", "sans-serif"],
+		"labels": {
+			"Content": "#ffe500",
+			"Source": "#ffabdb",
+			"Cue": "#90dcff"
+		}
+	},
+	"batch_size": 10,
+	"history_size": 15,
+	"port": 8080,
+    "host": "localhost",
+	"cors": true,
+	"feed_overlap": false,
+	"project_info": ["dataset", "session", "recipe_name", "label"],
+	"show_stats": true,
+	"show_flag": true,
+	"instructions": "AnnotationGuide.html",
+	"global_css": ".prodigy-text-input { font-size: 18px; } .prodigy-content > div > label { font-family: Lato, Helvetica, Roboto, Arial, sans-serif; } .prodigy-content > div > mark { padding: 0; font-family: Georgia; } p { margin-top: 3em; margin-bottom: 3em; } .prodigy-content > div { line-height: 1.6; font-family: Georgia; }"
+}

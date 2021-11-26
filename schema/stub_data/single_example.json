@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "path": "path/to/article", 
+        "publisher": "The Guardian",
+        "publish_date": "2021-11-04T00:00:01",
+        "topic":["PAW-GL","EAA-GL","ASI-GL","ANA-GL","MEW-GL","AFW-GL","EUW-GL"],
+        "entity_person":["fox","dog"],
+        "title":"The story of the brown fox.",
+        "keywords": ["fox", "tales"]
+    },
+    "paragraphs": [
+        "The narrator started.\n",
+        "He said, quietly, \"the quick brown fox jumped over the lazy dog.\n", 
+        "\"And they all lived happily ever after.\"\n"
+    ],
+    "entities": [
+        {
+            "index": 0,
+            "span_text": "He",
+            "span_coref": "the narrator",
+            "span_label": "Source",
+            "span_start": 0,
+            "span_end": 1,
+            "paragraph_start": 1,
+            "paragraph_end": 1
+        },
+        {
+            "index": 1,
+            "span_text": "said",
+            "span_label": "Cue",
+            "span_coref": "",
+            "span_start": 3,
+            "span_end": 6,
+            "paragraph_start": 1,
+            "paragraph_end": 1
+        },
+        {
+            "index": 2,
+            "span_text": "\"the quick brown fox jumped over the lazy dog.\n\"And they all lived happily ever after.\"",
+            "span_label": "Content",
+            "span_coref": "",
+            "span_start": 18,
+            "span_end": 108,
+            "paragraph_start": 1,
+            "paragraph_end": 2
+        }
+    ]
+}
