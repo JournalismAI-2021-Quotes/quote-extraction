@@ -13,7 +13,7 @@ The contribution consists of several self-contained pieces of work, namely:
 2. a rule set to define different types of quotes and guide the quote annotation
 3. custom annotation recipes for the [Prodigy](https://prodi.gy/) software enabling quick and efficient data annotation
 4. a post-processing pipeline for extracting quotes using a trained [Spacy](https://spacy.io/) model and adding coreferencing information
-5. example data and data schema for displaying the extracted quote information in a [search tool](https://github.com/JournalismAI-2021-Quotes/search-interface)  
+5. example data and data schema for displaying the extracted quote information in a search tool 
 
 # Repo structure
 
